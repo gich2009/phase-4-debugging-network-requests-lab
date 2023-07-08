@@ -59,8 +59,7 @@ developing a process, and it's helpful to document your steps as part of
 developing your own process.
 
 ## Your Notes Here
-For all the deliverables, I did the following
-  - My process was to first check the routes, then the controllers, then the models and finally the schema.
+My process was to first check the routes, then the controllers, then the models and finally the schema.
   - In the routes, I found that the destroy route was missing (1 down)
   - In the models, I found that the Toys model had been misspelled in the create action(2 down)
   - In the models, I found that the update action was missing the render macro hence it was not returning any json when the endpoint was being hit
